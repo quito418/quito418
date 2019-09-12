@@ -49,62 +49,32 @@
             <a class="btn btn-cta-primary pull-right" href="mailto:tom418@kaist.ac.kr" target="_blank"><i class="fa fa-paper-plane"></i> Contact: tom418@kaist.ac.kr</a>              
         </div><!--//container-->
     </header><!--//header-->
-
-
-
-
     
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-md-8 col-sm-12 col-xs-12">
-              <section class="experience section">
-		<div class="section-inner">
-		  <h2 class="heading">Research Interest</h2>
-		  <div class="content">
-		    <div class="item">
-		      <h3 class="title">Network System,  Video Delivery System,  Deep Learning System</h3>
-		    </div><!--//item-->
-
-
-		  </div><!--//content-->
-		</div><!--//section-inner-->
-	      </section>
-
-	      
-	      <section class="projects section">
-		<div class="section-inner">
-		  <h2 class="heading">Research Projects</h2>
-		  <div class="content">
-		    <div class="item">
-		      <h3 class="title"><a href="https://www.usenix.org/conference/osdi18/presentation/yeo">[2018 OSDI] NAS - Neural Adaptive Streaming</a></h3>
-		      <p class="summary">Hyunho Yeo, <b>Youngmok Jung</b>, Jaehong Kim, Jinwoo Shin, and Dongsu Han</p>
-		      <p><a class="more-link" href="http://ina.kaist.ac.kr/~nas" target="_blank"><i class="fa fa-external-link"></i> Link to Website</a></p>
-		    </div><!--//item-->
-		    <div class="item">
-		      <!--h3 class="title"><a href="#">Project Title Cras eget lacus</a> <span class="label label-theme">Open Source</span></h3>
-		      <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
-		      <p><a class="more-link" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-		    </div>
-
-		    <div class="item">
-		      <h3 class="title"><a href="#">Project Title Maecenas Ornare</a> <span class="label label-theme">Open Source</span></h3>
-		      <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
-		      <p><a class="more-link" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-		    </div><!--//item-->
-
-		    
-
-		  </div><!--//content-->
-		</div><!--//section-inner-->
-	      </section>
-
-	      
+              <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">Research Interest</h2>
+                        <div class="content">
+                          <p>
+			    Network System
+			    Video Delivery System
+			    Deep Learning
+			    
+			  </p>    
+         
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
 	      <section class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                          <p>Have lots of interest in network system, applications</p>    
+                            <p>Write a brief intro about yourself. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>    
          
+        <p>It's a good idea to include your personal interests and hobbies as well. Commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
@@ -117,11 +87,10 @@
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i style="margin-right:19px;" class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Daejeon, KOREA</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>tom418@kaist.ac.kr</li>
-				<li><i style="margin-right:6px;" class="fa fa-graduation-cap"></i><span class="sr-only">Current:</span>Ph.D. Candidate in Electrical Engineering at KAIST</li>
-				<li><i style="margin-right:6px;" class="fa fa-tasks"></i><span class="sr-only">Work:</span>Working at Intelligent Network Architecture and Distributed Systems Research Lab. (INA)</li>
-                                <li><i class="fa fa-user"></i><span class="sr-only"></span>Advised by Professor <a href="http://ina.kaist.ac.kr/~dongsuh/">Dongu Han</a></li>
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Daejeon, KOREA</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">tom418@kaist.ac.kr</a></li>
+				<li><i class="fa fa-graduation-cap"></i><span class="sr-only">Degree</span><a href="#">Ph.D. Candidate in Electrical Engineering at KAIST</a></li>
+                                
                             </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -172,14 +141,13 @@
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
-
-                          <div class="item">                      
+                            <div class="item">                      
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i> MS Electrical Engineering</h3>
-                                <h4 class="university">KAIST <span class="year">(2018.9-2019.9)</span></h4>
+                                <h4 class="university">KAIST <span class="year">(2018-)</span></h4>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i> BS Electrical Engineering</h3>
-                                <h4 class="university">KAIST <span class="year">(2014-2018.9)</span></h4>
+                                <h4 class="university">KAIST <span class="year">(2014-2018)</span></h4>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
