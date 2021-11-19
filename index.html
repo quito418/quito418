@@ -138,32 +138,35 @@
               <h2 class="heading">Research Projects</h2>
               <div class="content">
                 <div class="item">
-                  <h3  class="title" ><a >Redesigning Short Read Alignment software with a machine-learning approach</a></h3>
+                  <h3  class="title" ><a >Redesigning short-read alignment software with a machine-learning approach</a></h3>
+                  <b><p >Keywords: learned-index (Machine-learning), NGS, pattern matching</p></b>
                   <p class="summary"> 
                       - Developed a short read alignment tool that is the first to leverage learned indices to find exact match of
                     short substring (0-300 length) in the long reference DNA (6 billion length for human genome). <br>
-                    - Achieved up to 3.45x speedup in throughput over state-of-the-art algorithm by reducing the number
-                    of instructions by 4.60x, memory accesses by 8.77x, and LLC misses by 2.21x, while ensuring
+                    - Achieved up to <b>3.45x speedup in throughput</b> over state-of-the-art algorithm by reducing the <b>number
+                    of instructions by 4.60x, memory accesses by 8.77x, and LLC misses by 2.21x,</b> while ensuring
                     identical output.  
                 </p>
                   <p><a class="more-link" href="https://github.com/kaist-ina/bwa-meme" target="_blank"><i class="fa fa-external-link"></i> Link to Github</a></p>
                 </div><!--//item-->
                 
                 <div class="item">
-                  <h3 class="title"><a>Redesigning Live Video Streaming system with a Deep-learning approach (SIGCOMM 2020)</a></h3>
+                  <h3 class="title"><a>Redesigning Live-video delivery system with a Deep-learning approach (SIGCOMM 2020)</a></h3>
+                  <b><p >Keywords: live-video delivery system, Deep-learning based image super-resolution</p></b>
                   <p class="summary">
                     - Implemented new APIs in C++ WebRTC open-source code from Google; <b>1)</b> to obtain decoded and
                     encoded frames with the frame timestamp. <b>2)</b> to control and obtain bandwidth information in the
                     WebRTC.<br>
                     - Used Python wrapper (CPython) to integrate the newly added API to the LiveNAS system.<br>
                     - Developed the LiveNAS system which involves; <b>1)</b> Online training and inferencing super-resolution
-                    DNN model during the live video stream. <b>2)</b> Transmitting training data over RTP. <b>3)</b> Controlling bandwidth allocation
-
+                    DNN model during the live video stream. <b>2)</b> Transmitting training data over RTP. <b>3)</b> Controlling bandwidth allocation <br>
+                    - LiveNAS system achieved up to <b>69% improvement in QoE</b> and the same quality as WebRTC using only <b>45.9% bandwidth</b> on average.
                   </p>
                   <p><a class="more-link" href="http://ina.kaist.ac.kr/~livenas" target="_blank"><i class="fa fa-external-link"></i> Link to Website</a></p>
                 </div><!--//item-->
                 <div class="item">
                   <h3 class="title"><a>Timeout-less Transport Protocol for Datacenter (EuroSys 2021)</a></h3>
+                  <b><p >Keywords: data center network, network protocol, network switching</p></b>
                   <p class="summary">
                         - Implemented NS-3 simulation code[C++] for RDMA protocol and TLT.<br>
                         - Managed switch configuration which involves priority-flow-control, Shared Buffer Pool size, and Packet
@@ -174,6 +177,7 @@
                 </div><!--//item-->
                 <div class="item">
                   <h3 class="title"><a >Deep Learning-based Internet Video Delivery (OSDI 2018)</a></h3>
+                  <b><p >Keywords: Reinforcement-learning, video-on-demand content delivery system</p></b>
                   <p class="summary">
                       - Developed an integrated-ABR (adaptive bit-rate) controller code[Python,Tensorflow] based on Reinforcement Learning (actor-critic framework of A3C).<br>
                       - Developed simulation code for video delivery to train RL model and measure user QoE (Quality of Experience). <br>
