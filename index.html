@@ -185,199 +185,237 @@
 
           <!-- Selected papers -->
           <div class="publications">
+            <h2>Selected Publications</h2>
+            <ol class="bibliography"><li>
+            <!-- _layouts/bib.html -->
+            <div class="row">
+              <div class="col-sm-2 abbr"><abbr class="badge">Bioinformatics</abbr></div>
+              <!-- Entry bib key -->
+              <div id="PhysRev.47.777" class="col-sm-8">
+                <!-- Title -->
+                <div class="title">BWA-MEME: BWA-MEM emulated with a machine learning approach</div>
+                <!-- Author -->
+                <div class="author">
+                        <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
+                        <em>Youngmok Jung</em> and Dongsu Han
+                </div>
+                <!-- Journal/Book title and date -->
+                <div class="periodical">
+                  <em>Oxford Bioinformatics,</em> 2022
+                </div>
+                <!-- Links/Buttons -->
+                <div class="links">
+                  <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                  <a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btac137/6543607" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+                  <a href="https://github.com/kaist-ina/bwa-meme" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                  <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+                </div>
+                <!-- Hidden abstract block -->
+                <div class="abstract hidden">
+                  <p>The growing use of next-generation sequencing and enlarged sequencing throughput require efficient short-read alignment, where seeding is one of the major performance bottlenecks. The key challenge in the seeding phase is searching for exact matches of substrings of short reads in the reference DNA sequence. Existing algorithms, however, present limitations in performance due to their frequent memory accesses.</p>
+                  <p>This paper presents BWA-MEME, the first full-fledged short read alignment software that leverages learned indices for solving the exact match search problem for efficient seeding. BWA-MEME is a practical and efficient seeding algorithm based on a suffix array search algorithm that solves the challenges in utilizing learned indices for SMEM search which is extensively used in the seeding phase. Our evaluation shows that BWA-MEME achieves up to 3.45x speedup in seeding throughput over BWA-MEM2 by reducing the number of instructions by 4.60x, memory accesses by 8.77x, and LLC misses by 2.21x, while ensuring the identical SAM output to BWA-MEM2.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Row start -->
+           
+            <!-- Row start -->
+            <div class="row">
+              <div class="col-sm-2 abbr"><abbr class="badge">SIGCOMM</abbr></div>
+
+              <!-- Entry bib key -->
+              <div id="PhysRev.47.777" class="col-sm-8">
+              
+                <!-- Title -->
+                <div class="title">LiveNAS - Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning</div>
+                <!-- Author -->
+                <div class="author">
+                        <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
+                        Jaehong Kim, <em>(Co-first)Youngmok Jung</em>, Hyunho Yeo, Juncheol Ye and Dongsu Han
+                        
+                </div>
+
+                <!-- Journal/Book title and date -->
+                <div class="periodical">
+                  <em>In Proceedings of ACM SIGCOMM conference,</em> 2020
+                </div>
+              
+                <!-- Links/Buttons -->
+                <div class="links">
+                  <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                  <a href="http://ina.kaist.ac.kr/~livenas" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+                  <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+                </div>
+
+                <!-- Hidden abstract block -->
+                <div class="abstract hidden">
+                  <p>Live video accounts for a significant volume of today’s Internet
+                    video. Despite a large number of efforts to enhance user quality
+                    of experience (QoE) both at the ingest and distribution side of live
+                    video, the fundamental limitations are that streamer’s upstream
+                    bandwidth and computational capacity limit the quality of experience of thousands of viewers.
+                    To overcome this limitation, we design LiveNAS, a new live
+                    video ingest framework that enhances the origin stream’s quality by leveraging computation at ingest servers. Our ingest server
+                    applies neural super-resolution on the original stream, while imposing minimal overhead on ingest clients. LiveNAS employs online
+                    learning to maximize the quality gain and dynamically adjusts the
+                    resource use to the real-time quality improvement. LiveNAS delivers high-quality live streams up to 4K resolution, outperforming
+                    WebRTC by 1.96 dB on average in Peak-Signal-to-Noise-Ratio on
+                    real video streams and network traces, which leads to 12%-69% QoE
+                    improvement for live stream viewers.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Row start -->
+
+          <div class="publications">
             <h2>Publications</h2>
             <ol class="bibliography"><li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Bioinformatics</abbr></div>
 
-        <!-- Entry bib key -->
-        <div id="PhysRev.47.777" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">BWA-MEME: BWA-MEM emulated with a machine learning approach</div>
-          <!-- Author -->
-          <div class="author">
-                  <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
-                  <em>Youngmok Jung</em> and Dongsu Han
-                  
-          </div>
+              <div class="row">
+                <div class="col-sm-2 abbr"><abbr class="badge">SIGCOMM</abbr></div>
+  
+                <!-- Entry bib key -->
+                <div id="PhysRev.47.777" class="col-sm-8">
+                
+                  <!-- Title -->
+                  <div class="title">Engorgio: Neural Video Enhancement at Scale</div>
+                  <!-- Author -->
+                  <div class="author">
+                          <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
+                          Hyunho Yeo, Hwijoon Lim, Jaehong Kim, <em>Youngmok Jung</em>, Juncheol Ye, and Dongsu Han
+                          
+                  </div>
+  
+                  <!-- Journal/Book title and date -->
+                  <div class="periodical">
+                    <em>In Proceedings of ACM SIGCOMM conference,</em> 2022
+                  </div>
+                
+                  <!-- Links/Buttons -->
+                  <div class="links">
+                    <!-- <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> -->
+                    <a class="btn">(Will Appear)</a>
+                    <!-- <a href="http://ina.kaist.ac.kr/~livenas" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a> -->
+                    <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+                  </div>
+  
+                  <!-- Hidden abstract block -->
+                  <div class="abstract hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
 
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>Oxford Bioinformatics,</em> 2022
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btac137/6543607" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="https://github.com/kaist-ina/bwa-meme" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Github</a>
-            <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
+            <!-- Row start -->
+            <div class="row">
+              <div class="col-sm-2 abbr"><abbr class="badge">EuroSys</abbr></div>
 
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>The growing use of next-generation sequencing and enlarged sequencing throughput require efficient short-read alignment, where seeding is one of the major performance bottlenecks. The key challenge in the seeding phase is searching for exact matches of substrings of short reads in the reference DNA sequence. Existing algorithms, however, present limitations in performance due to their frequent memory accesses.</p>
-            <p>This paper presents BWA-MEME, the first full-fledged short read alignment software that leverages learned indices for solving the exact match search problem for efficient seeding. BWA-MEME is a practical and efficient seeding algorithm based on a suffix array search algorithm that solves the challenges in utilizing learned indices for SMEM search which is extensively used in the seeding phase. Our evaluation shows that BWA-MEME achieves up to 3.45x speedup in seeding throughput over BWA-MEM2 by reducing the number of instructions by 4.60x, memory accesses by 8.77x, and LLC misses by 2.21x, while ensuring the identical SAM output to BWA-MEM2.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Row start -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">EuroSys</abbr></div>
+              <!-- Entry bib key -->
+              <div id="PhysRev.47.777" class="col-sm-8">
+              
+                <!-- Title -->
+                <div class="title">Towards Timeout-less Transport in Commodity Datacenter Networks</div>
+                <!-- Author -->
+                <div class="author">
+                        <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
+                        Hwijoon Lim, Wei Bai, Yibo Zhu, <em>Youngmok Jung</em> and Dongsu Han
+                        
+                </div>
 
-        <!-- Entry bib key -->
-        <div id="PhysRev.47.777" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Towards Timeout-less Transport in Commodity Datacenter Networks</div>
-          <!-- Author -->
-          <div class="author">
-                  <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
-                  Hwijoon Lim, Wei Bai, Yibo Zhu, <em>Youngmok Jung</em> and Dongsu Han
-                  
-          </div>
+                <!-- Journal/Book title and date -->
+                <div class="periodical">
+                  <em>The 16th European Conference on Computer Systems,</em> 2021
+                </div>
+              
+                <!-- Links/Buttons -->
+                <div class="links">
+                  <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                  <a href="https://dl.acm.org/doi/10.1145/3447786.3456227" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+                  <a href="https://github.com/kaist-ina/ns3-tlt-tcp-public" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                  <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+                </div>
 
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>The 16th European Conference on Computer Systems,</em> 2021
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://dl.acm.org/doi/10.1145/3447786.3456227" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="https://github.com/kaist-ina/ns3-tlt-tcp-public" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Github</a>
-            <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
+                <!-- Hidden abstract block -->
+                <div class="abstract hidden">
+                  <p>Despite recent advances in datacenter networks, timeouts caused by congestion packet losses still remain a major cause of high tail latency. Priority-based Flow Control (PFC) was introduced to make the network lossless, but its Head-of-Line blocking nature causes various performance and management problems. In this paper, we ask if it is possible to design a network that achieves (near) zero timeout only using commodity hardware in datacenters.
+                    Our answer is TLT, an extension to existing transport designed to eliminate timeouts. We are inspired by the observation that only certain types of packet drops cause timeouts. Therefore, instead of blindly dropping (TCP) or not dropping packets at all (RoCEv2), TLT proactively drops some packets to ensure the delivery of more important ones, whose losses may cause timeouts. It classifies packets at the host and leverages color-aware thresholding, a feature widely supported by commodity switches, to proactively drop some less important packets. We implement TLT prototypes using VMA to test with real applications. Our testbed evaluation on Redis shows that TLT reduces 99%-ile FCT up to 91.7% on handling bursts of SET operations. In large-scale simulations, TLT augments diverse datacenter transports, from widely-used (TCP, DCTCP, DCQCN) to state-of-the-art (IRN and HPCC), by achieving up to 81% lower tail latency.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Row start -->
+            <div class="row">
+              <div class="col-sm-2 abbr"><abbr class="badge">Mobicom</abbr></div>
 
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Despite recent advances in datacenter networks, timeouts caused by congestion packet losses still remain a major cause of high tail latency. Priority-based Flow Control (PFC) was introduced to make the network lossless, but its Head-of-Line blocking nature causes various performance and management problems. In this paper, we ask if it is possible to design a network that achieves (near) zero timeout only using commodity hardware in datacenters.
-              Our answer is TLT, an extension to existing transport designed to eliminate timeouts. We are inspired by the observation that only certain types of packet drops cause timeouts. Therefore, instead of blindly dropping (TCP) or not dropping packets at all (RoCEv2), TLT proactively drops some packets to ensure the delivery of more important ones, whose losses may cause timeouts. It classifies packets at the host and leverages color-aware thresholding, a feature widely supported by commodity switches, to proactively drop some less important packets. We implement TLT prototypes using VMA to test with real applications. Our testbed evaluation on Redis shows that TLT reduces 99%-ile FCT up to 91.7% on handling bursts of SET operations. In large-scale simulations, TLT augments diverse datacenter transports, from widely-used (TCP, DCTCP, DCQCN) to state-of-the-art (IRN and HPCC), by achieving up to 81% lower tail latency.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Row start -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Mobicom</abbr></div>
+              <!-- Entry bib key -->
+              <div id="PhysRev.47.777" class="col-sm-8">
+              
+                <!-- Title -->
+                <div class="title">NEMO: Enabling Neural-enhanced Video Streaming on Commodity Mobile Devices</div>
+                <!-- Author -->
+                <div class="author">
+                        <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
+                        Hyunho Yeo, Chan Ju Chong, <em>Youngmok Jung</em>, Juncheol Ye and Dongsu Han
+                        
+                </div>
 
-        <!-- Entry bib key -->
-        <div id="PhysRev.47.777" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">NEMO: Enabling Neural-enhanced Video Streaming on Commodity Mobile Devices</div>
-          <!-- Author -->
-          <div class="author">
-                  <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
-                  Hyunho Yeo, Chan Ju Chong, <em>Youngmok Jung</em>, Juncheol Ye and Dongsu Han
-                  
-          </div>
+                <!-- Journal/Book title and date -->
+                <div class="periodical">
+                  <em>The 26th Annual International Conference on Mobile Computing and Networking,</em> 2020
+                </div>
+              
+                <!-- Links/Buttons -->
+                <div class="links">
+                  <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                  <a href="http://ina.kaist.ac.kr/~nemo/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+                  <a href="https://github.com/kaist-ina/nemo" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                  <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+                </div>
 
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>The 26th Annual International Conference on Mobile Computing and Networking,</em> 2020
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://ina.kaist.ac.kr/~nemo/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="https://github.com/kaist-ina/nemo" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Github</a>
-            <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
+                <!-- Hidden abstract block -->
+                <div class="abstract hidden">
+                  <p>The demand for mobile video streaming has experienced tremendous growth over the last decade. However, existing methods of video delivery fall short of delivering high-quality video. Recent advances in neural super-resolution have opened up the possibility of enhancing video quality by leveraging client-side computation. Unfortunately, mobile devices cannot benefit from this because it is too expensive in computation and power-hungry.
+                    To overcome the limitation, we present NEMO, a system that enables real-time video super-resolution on mobile devices. NEMO applies neural super-resolution to a few select frames and transfers the outputs to benefit the remaining frames. The frames to which super-resolution is applied are carefully chosen to maximize the overall quality gains. NEMO leverages fine-grained dependencies using information from the video codec and strives to provide guarantees in the quality degradation compared to per-frame super-resolution. Our evaluation using a full system implementation on Android shows NEMO improves the overall processing throughput by x11.5, reduces energy consumption by 88.6%, and maintains device temperatures at acceptable levels compared to per-frame super-resolution, while ensuring high video quality. Overall, this leads to a 31.2% improvement in quality of experience for mobile users.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Row start -->
+            <div class="row">
+              <div class="col-sm-2 abbr"><abbr class="badge">OSDI</abbr></div>
 
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>The demand for mobile video streaming has experienced tremendous growth over the last decade. However, existing methods of video delivery fall short of delivering high-quality video. Recent advances in neural super-resolution have opened up the possibility of enhancing video quality by leveraging client-side computation. Unfortunately, mobile devices cannot benefit from this because it is too expensive in computation and power-hungry.
-              To overcome the limitation, we present NEMO, a system that enables real-time video super-resolution on mobile devices. NEMO applies neural super-resolution to a few select frames and transfers the outputs to benefit the remaining frames. The frames to which super-resolution is applied are carefully chosen to maximize the overall quality gains. NEMO leverages fine-grained dependencies using information from the video codec and strives to provide guarantees in the quality degradation compared to per-frame super-resolution. Our evaluation using a full system implementation on Android shows NEMO improves the overall processing throughput by x11.5, reduces energy consumption by 88.6%, and maintains device temperatures at acceptable levels compared to per-frame super-resolution, while ensuring high video quality. Overall, this leads to a 31.2% improvement in quality of experience for mobile users.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Row start -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">SIGCOMM</abbr></div>
+              <!-- Entry bib key -->
+              <div id="PhysRev.47.777" class="col-sm-8">
+              
+                <!-- Title -->
+                <div class="title">Neural Adaptive Content-aware Internet Video Delivery</div>
+                <!-- Author -->
+                <div class="author">
+                        <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
+                        Hyunho Yeo, <em>Youngmok Jung</em>, Jaehong Kim, Jinwoo Shin, and Dongsu Han
+                        
+                </div>
 
-        <!-- Entry bib key -->
-        <div id="PhysRev.47.777" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">LiveNAS - Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning</div>
-          <!-- Author -->
-          <div class="author">
-                  <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
-                  Jaehong Kim, <em>(Co-first)Youngmok Jung</em>, Hyunho Yeo, Juncheol Ye and Dongsu Han
-                  
-          </div>
+                <!-- Journal/Book title and date -->
+                <div class="periodical">
+                  <em>13th USENIX Symposium on Operating Systems Design and Implementation,</em> 2018
+                </div>
+              
+                <!-- Links/Buttons -->
+                <div class="links">
+                  <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                  <a href="http://ina.kaist.ac.kr/~nas" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+                  <a href="https://github.com/kaist-ina/NAS_public" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Github</a>
+                  <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
+                </div>
 
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>In Proceedings of ACM SIGCOMM conference,</em> 2020
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://ina.kaist.ac.kr/~livenas" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
+                <!-- Hidden abstract block -->
+                <div class="abstract hidden">
+                  <p>Internet video streaming has experienced tremendous growth over the last few decades. However, the quality of existing video delivery critically depends on the bandwidth resource. Consequently, user quality of experience (QoE) suffers inevitably when network conditions become unfavorable. We present a new video delivery framework that utilizes client computation and recent advances in deep neural networks (DNNs) to reduce the dependency for delivering high-quality video. The use of DNNs enables us to enhance the video quality independent to the available bandwidth. We design a practical system that addresses several challenges, such as client heterogeneity, interaction with bitrate adaptation, and DNN transfer, in enabling the idea. Our evaluation using 3G and broadband network traces shows the proposed system outperforms the current state of the art, enhancing the average QoE by 43.08% using the same bandwidth budget or saving 17.13% of bandwidth while providing the same user QoE.</p>
+                </div>
+              </div>
+            </div>
 
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Live video accounts for a significant volume of today’s Internet
-              video. Despite a large number of efforts to enhance user quality
-              of experience (QoE) both at the ingest and distribution side of live
-              video, the fundamental limitations are that streamer’s upstream
-              bandwidth and computational capacity limit the quality of experience of thousands of viewers.
-              To overcome this limitation, we design LiveNAS, a new live
-              video ingest framework that enhances the origin stream’s quality by leveraging computation at ingest servers. Our ingest server
-              applies neural super-resolution on the original stream, while imposing minimal overhead on ingest clients. LiveNAS employs online
-              learning to maximize the quality gain and dynamically adjusts the
-              resource use to the real-time quality improvement. LiveNAS delivers high-quality live streams up to 4K resolution, outperforming
-              WebRTC by 1.96 dB on average in Peak-Signal-to-Noise-Ratio on
-              real video streams and network traces, which leads to 12%-69% QoE
-              improvement for live stream viewers.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Row start -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">OSDI</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="PhysRev.47.777" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Neural Adaptive Content-aware Internet Video Delivery</div>
-          <!-- Author -->
-          <div class="author">
-                  <!-- <em>Youngmok, Jung</em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" target="_blank" rel="noopener noreferrer">Podolsky, B.</a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" target="_blank" rel="noopener noreferrer">Rosen, N.</a> -->
-                  Hyunho Yeo, <em>Youngmok Jung</em>, Jaehong Kim, Jinwoo Shin, and Dongsu Han
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>13th USENIX Symposium on Operating Systems Design and Implementation,</em> 2018
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://ina.kaist.ac.kr/~nas" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="https://github.com/kaist-ina/NAS_public" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Github</a>
-            <!-- <a href="assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a> -->
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Internet video streaming has experienced tremendous growth over the last few decades. However, the quality of existing video delivery critically depends on the bandwidth resource. Consequently, user quality of experience (QoE) suffers inevitably when network conditions become unfavorable. We present a new video delivery framework that utilizes client computation and recent advances in deep neural networks (DNNs) to reduce the dependency for delivering high-quality video. The use of DNNs enables us to enhance the video quality independent to the available bandwidth. We design a practical system that addresses several challenges, such as client heterogeneity, interaction with bitrate adaptation, and DNN transfer, in enabling the idea. Our evaluation using 3G and broadband network traces shows the proposed system outperforms the current state of the art, enhancing the average QoE by 43.08% using the same bandwidth budget or saving 17.13% of bandwidth while providing the same user QoE.</p>
-          </div>
-        </div>
-      </div>
-
-</li></ol>
+            </li></ol>
           </div>
 
           <!-- Social -->
