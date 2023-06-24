@@ -146,18 +146,19 @@
           </div>
 
           <div class="clearfix">
-            <p>I am a computer science PhD candidate at <a href="https://ina.kaist.ac.kr/" target="_blank">INA lab</a>, KAIST advised by <a href="http://ina.kaist.ac.kr/~dongsuh/" target="_blank">Dongsu Han</a>. Before then, I received my BS degree in Electrical Engineering in KAIST, South Korea.</p>
+            <p>I am a computer science PhD candidate at <a href="https://ina.kaist.ac.kr/" target="_blank">INA lab</a>, KAIST co-advised by <a href="http://ina.kaist.ac.kr/~dongsuh/" target="_blank">Dongsu Han</a> and <a href="https://www.julab.kaist.ac.kr/members" target="_blank">Young Seok Ju</a>. Before then, I received my BS degree in Electrical Engineering in KAIST, South Korea.</p>
               <!-- Link to your favorite <a href="http://reddit.com" target="_blank" rel="noopener noreferrer">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture <code class="language-plaintext highlighter-rouge">prof_pic.jpg</code> and put it in the <code class="language-plaintext highlighter-rouge">img/</code> folder.</p> -->
 
         <!-- <code class="language-plaintext highlighter-rouge">profile</code> property of the YAML header of your <code class="language-plaintext highlighter-rouge">_pages/about.md</code>. Edit <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> and Jekyll will render your <a href="/al-folio/publications/">publications page</a> automatically.</p> -->
 
-<p>I am interested in developing systems that use AI/ML approaches.
-  Real-world systems have assumptions that are often different from those of AI/ML approaches.
-  My works aims at 1) designing efficient system that uses AI/ML approaches; 2) improving the AI/ML approaches leveraging the assumptions in the system. 
+<p>
+  My interests are in crafting systems that incorporate AI/ML approaches.
+  I concentrate on utilizing underlying assumptions of real-world systems to enhance the integration of these AI/ML techniques.
+  My works aims at 1) designing efficient system built on AI/ML approaches; 2) improving AI/ML approaches by exploiting system-specific assumptions. 
   All my work involves several months of implementation followed by thorough testing in real-world data.
   </p><p>Recently, I am striving to redesign genomics software using AI/ML approaches. 
   In the past, I worked on various topics in video delivery system and image super-resolution based on neural network.</p>
-<p> Expected date of graduation is Febuaray, 2024. I am looking for job opportunities and post-doctoral positions. </p>
+<p> Expected date of graduation is Febuaray, 2024. I am looking for job opportunities and post-doctoral positions (preference: Unites States, Europe, South Korea). </p>
           </div>
 
           <!-- News -->          
@@ -469,27 +470,45 @@
               
               <!-- Entry bib key -->
               <div id="PhysRev.47.777" class="col-sm-12">
-                <div class="title">Adapting AI & ML to System</div>
+                <div class="title">AI & ML for System</div>
                 <p>
                 </p>
                 <div class="author">
                         - Used <b>image Super-resolution</b> deep learning model to enhance the video streaming system. Various techniques (e.g. Online training, Data specialization) were used to build practical system (LiveNAS, NAS) </br>
                         - Developed integrated <a href="https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming" target="_blank">ABR algorithm</a> using <b>Reinforcement-learning (a3c)</b> that predicts the network bandwidth and optimize the user QoE in video streaming. (NAS) </br>
-                        - Developed new <b>learned-index</b> model that adapts to imbalanced DNA dataset. (BWA-MEME) </br>
+                        - Developed new <b>learned-index</b> model structure that adapts to imbalanced DNA dataset. (BWA-MEME) </br>
 
                 </div>
                 
                 <div class="row"> </br></div>
-                <div class="title">System Design and Development</div>
+                <div class="title">Enhancing networked systems </div>
                 <!-- Author -->
                 <p>
                 </p>
                 <div class="author">
-                        - Developed new live video streaming system (LiveNAS) that delivers live video with the same quality as WebRTC <b>using only 45.9% bandwidth on average</b>. LiveNAS system is built on top of Google WebRTC. </br>
-                        - Developed new <a target="_blank" href="https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)/Alignment">short-read alignment</a> software (BWA-MEME) using <b>learned-index</b> that achieved up to <b>3.45x speedup</b> over state-of-the-art algorithm.</br>
-                        - Developed <a target="_blank" href="https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP">VoD (video-on-demand)</a> streaming simulation environment for RL model. Also, validated the RL model works well on the real world after training on the simulation environment. </br>
-                        - Implemented network protocols (TLT, PFC) in <a target="_blank" href="https://www.nsnam.org/">NS-3 network simulator</a>. </br>
+                        - [SIGCOMM'20 LiveNAS] Developed neural-enhanced live video streaming system (LiveNAS) that delivers live video with the same quality as WebRTC <b>using only 45.9% bandwidth on average</b>. LiveNAS system is built on top of Google WebRTC. </br>
+                        - [OSDI'18 NAS] Developed <a target="_blank" href="https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP">VoD (video-on-demand)</a> streaming simulation environment for RL model. Also, validated the RL model works well on the real world after training on the simulation environment. </br>
+                        - [EuroSYS'21] Implemented network protocols (TLT, PFC) in <a target="_blank" href="https://www.nsnam.org/">NS-3 network simulator</a>. </br>
                 </div>
+
+                <div class="row"> </br></div>
+                <div class="title">Enhancing genome analysis pipeline with AI and ML techniques</div>
+                <!-- Author -->
+                <p>
+                </p>
+                <div class="author">
+                        - [Bioinformatics'22] Developed new <a target="_blank" href="https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)/Alignment">short-read alignment</a> software (BWA-MEME) using <b>learned-index</b> that achieved up to <b>3.45x speedup</b> over state-of-the-art algorithm. </br>
+                        - (In-progress) Improving accuracy of deep learning-based variant caller.
+                </div>
+                
+                <!-- <div class="row"> </br></div>
+                <div class="title">Cloud and Datacenter</div>
+                <p>
+                </p>
+                <div class="author">
+                        - Microservice overload control 
+                </div> -->
+
 
                 <!-- <div class="row"> </br></div>
                 <div class="title">Managing</div>
@@ -524,13 +543,15 @@
                   
                   <!-- Entry bib key -->
                   <div id="PhysRev.47.777" class="col-sm-12">
-                    <div class="title">BWA-MEME</div>
-                    <p><a target="_blank" href="https://github.com/kaist-ina/BWA-MEME">https://github.com/kaist-ina/BWA-MEME</a>
-                    </br>
-                    - Short-read alignment software, released for benefit of research community.
+                    <div class="title">BWA-MEME <img alt="badge" src="https://anaconda.org/bioconda/bwa-meme/badges/downloads.svg" data-airgap-id="25"></div>
+                    <p><a target="_blank" href="https://github.com/kaist-ina/BWA-MEME">https://github.com/kaist-ina/BWA-MEME</a>  
+                    
+                  </br>
+                    - Short-read alignment software, released for benefit of research community. 
                     </p>
                     <div class="author">
                     </div>
+                    
                     <!--                     
                     <div class="title">TLT</div>
                     <p><a target="_blank" href="https://github.com/kaist-ina/ns3-tlt-tcp-public">https://github.com/kaist-ina/ns3-tlt-tcp-public</a>
