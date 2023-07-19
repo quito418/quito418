@@ -153,7 +153,7 @@
 
 <p>
   My interests are in crafting systems that incorporate AI/ML approaches.
-  I concentrate on utilizing underlying assumptions of real-world systems to enhance the integration of these AI/ML techniques.
+  I concentrate on utilizing underlying assumptions of real-world systems to enhance the integration of AI/ML techniques.
   My works aims at 1) designing efficient system built on AI/ML approaches; 2) improving AI/ML approaches by exploiting system-specific assumptions. 
   All my work involves several months of implementation followed by thorough testing in real-world data.
   </p><p>Recently, I am striving to redesign genomics software using AI/ML approaches. 
@@ -474,21 +474,21 @@
                 <p>
                 </p>
                 <div class="author">
-                        - Used <b>image Super-resolution</b> deep learning model to enhance the video streaming system. Various techniques (e.g. Online training, Data specialization) were used to build practical system (LiveNAS, NAS) </br>
-                        - Developed integrated <a href="https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming" target="_blank">ABR algorithm</a> using <b>Reinforcement-learning (a3c)</b> that predicts the network bandwidth and optimize the user QoE in video streaming. (NAS) </br>
-                        - Developed new <b>learned-index</b> model structure that adapts to imbalanced DNA dataset. (BWA-MEME) </br>
+                        - [OSDI'18 NAS, SIGCOMM'20 LiveNAS] Used <b>image Super-resolution</b> deep learning model to enhance the video streaming system. Various techniques (e.g. Online training, Data specialization) were used to build practical system </br>
+                        - [OSDI'18 NAS] Developed integrated <a href="https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming" target="_blank">ABR algorithm</a> using <b>Reinforcement-learning (a3c)</b> that predicts the network bandwidth and optimize the user QoE in video streaming.</br>
+                        - [Bioinformatics'22] Developed new <b>learned-index</b> model structure that adapts to imbalanced DNA dataset.</br>
 
                 </div>
                 
                 <div class="row"> </br></div>
-                <div class="title">Enhancing networked systems </div>
+                <div class="title">Designing high-performance networked systems </div>
                 <!-- Author -->
                 <p>
                 </p>
                 <div class="author">
                         - [SIGCOMM'20 LiveNAS] Developed neural-enhanced live video streaming system (LiveNAS) that delivers live video with the same quality as WebRTC <b>using only 45.9% bandwidth on average</b>. LiveNAS system is built on top of Google WebRTC. </br>
-                        - [OSDI'18 NAS] Developed <a target="_blank" href="https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP">VoD (video-on-demand)</a> streaming simulation environment for RL model. Also, validated the RL model works well on the real world after training on the simulation environment. </br>
-                        - [EuroSYS'21] Implemented network protocols (TLT, PFC) in <a target="_blank" href="https://www.nsnam.org/">NS-3 network simulator</a>. </br>
+                        - [OSDI'18 NAS] Developed <a target="_blank" href="https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP">VoD (video-on-demand)</a> streaming simulation environment for RL model. The RL model was deployed and evaluated on the real world video streaming after training on the simulation environment. </br>
+                        - [EuroSYS'21] Implemented data-center network protocols (TLT, PFC) in <a target="_blank" href="https://www.nsnam.org/">NS-3 network simulator</a>. TLT protocol was also implemented in Linux kernel and tested in real-world testbed.</br>
                 </div>
 
                 <div class="row"> </br></div>
@@ -497,7 +497,8 @@
                 <p>
                 </p>
                 <div class="author">
-                        - [Bioinformatics'22] Developed new <a target="_blank" href="https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)/Alignment">short-read alignment</a> software (BWA-MEME) using <b>learned-index</b> that achieved up to <b>3.45x speedup</b> over state-of-the-art algorithm. </br>
+                        - [Bioinformatics'22] Developed new <a target="_blank" href="https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)/Alignment">short-read alignment</a> software (BWA-MEME) using <b>learned-index</b> that achieved up to <b>3.45x speedup</b> over state-of-the-art algorithm. 
+                        BWA-MEME is designed with memory-locality, cache-friendliness and algorithmic efficiency in mind.</br>
                         - (In-progress) Improving accuracy of deep learning-based variant caller.
                 </div>
                 
@@ -538,7 +539,7 @@
                 <h2>Opensource</h2>
                 <ol class="bibliography"></ol>
                 <!-- _layouts/bib.html -->
-                
+                <h5>Main Contributor</h5>
                 <div class="row">
                   
                   <!-- Entry bib key -->
@@ -579,6 +580,47 @@
                     
                   </div>
                 </div>
+                <h5>Collaborative Projects</h5>
+                <div class="row">
+                  
+                  <!-- Entry bib key -->
+                  <div id="PhysRev.47.777" class="col-sm-12">
+                    <div class="title">NAS: Neural Adaptive Content-aware Internet Video Delivery
+                    <p><a target="_blank" href="https://github.com/kaist-ina/NAS_public">https://github.com/kaist-ina/NAS_public</a>  
+                    </p>
+                    <div class="author">
+                    </div>
+                    </div>
+                  </div>
+                  <div id="PhysRev.47.777" class="col-sm-12">
+                    <div class="title">NEMO: Enabling Neural-enhanced Video Streaming on Commodity Mobile Devices
+                    <p><a target="_blank" href="https://github.com/kaist-ina/nemo">https://github.com/kaist-ina/nemo</a>  
+                    </p>
+                    <div class="author">
+                    </div>
+                    </div>
+                  </div>
+
+                  <div id="PhysRev.47.777" class="col-sm-12">
+                    <div class="title">TLT: Towards Timeout-less Transport in Commodity Datacenter Networks
+                    <p><a target="_blank" href="https://github.com/kaist-ina/ns3-tlt-rdma-public">https://github.com/kaist-ina/ns3-tlt-rdma-public</a>  
+                    </p>
+                    <div class="author">
+                    </div>
+                    </div>
+                  </div>
+
+                  <div id="PhysRev.47.777" class="col-sm-12">
+                    <div class="title">NeuroScaler: Neural Video Enhancement at Scale
+                    <p><a target="_blank" href="https://github.com/kaist-ina/neuroscaler-public">https://github.com/kaist-ina/neuroscaler-public</a>  
+                    </p>
+                    <div class="author">
+                    </div>
+                    </div>
+                  </div>
+
+                  
+
               </div>
 
               <div class="publications">
