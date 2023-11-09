@@ -1,97 +1,7 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            overflow: hidden;
-            padding: 0 20px;
-        }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
-        }
-        header a {
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        header .highlight, header .current a {
-            color: #e8491d;
-            font-weight: bold;
-        }
-        header a:hover {
-            color: #ffffff;
-            font-weight: bold;
-        }
-        .banner {
-            padding: 80px 0;
-            color: #ffffff;
-            background: url('banner_background.jpg') no-repeat 0 0;
-            background-size: cover;
-        }
-        .banner h1 {
-            margin: 0;
-            font-size: 55px;
-            text-transform: uppercase;
-            letter-spacing: 8px;
-        }
-        .banner p {
-            font-size: 20px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">AI and Genomics</span> Researcher</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
     <div class="banner">
         <div class="container">
-            <h1>Your Name</h1>
+            <h1>Youngmok Jung</h1>
             <p>Exploring the intersections of artificial intelligence and genomics</p>
         </div>
     </div>
@@ -118,4 +28,3 @@
             <p>Connect with me on <a href="https://linkedin.com/in/your-profile">LinkedIn</a></p>
         </footer>
     </div>
-</body>
