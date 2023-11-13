@@ -512,9 +512,12 @@
                 <p>
                 </p>
                 <div class="author">
-                        - Developed and open-sourced a <a target="_blank" href="https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)/Alignment">short-read alignment</a> software, BWA-MEME, that is the first to leverage learned indices.
-                        <a target="_blank" href="https://github.com/kaist-ina/BWA-MEME">BWA-MEME</a> achieves up to <b>3.45x speedup</b> over its' its' predecessor, BWA-MEM2 from Intel, and is deployed in the production environment of multiple institutions. [Oxford Bioinformatics'22]</br>
-                        - Developed a generalization framework that extends deep learning-based variant callers (Google DeepVariant, Clair3, ...) to accommodate diverse sequencing methods, leveraging semi-supervised learning and domain adaptation techniques.
+                        - BWA MEM is a industry-standard alignment software for next-generation sequencing data developed by the Broad Institute of MIT and Harvard. 
+                        We developed 
+                        <a target="_blank" href="https://github.com/kaist-ina/BWA-MEME">BWA-MEME</a> that achieves up to <b>3.45x speedup</b> over its' predecessor, BWA-MEM2 from Intel and Broad institute, while ensuring identical output. 
+                        BWA-MEME is deployed in the production environment of multiple institutions. [Oxford Bioinformatics'22]</br>
+                        - Diversity of sequencing methods challenges the robustness of deep learning-based variant callers (DVCs).
+                        To address this issue, we developed a generalization framework that extends deep learning-based variant callers (Google DeepVariant, Clair3, ...) to accommodate diverse sequencing methods, leveraging semi-supervised learning and domain adaptation techniques.
                         RUN-DVC improves SNP F1-score and INDEL F1-score by up to <b>6.40 %p and 9.36 %p</b> over the supevised training approach using only unlabeled data.
                         </br>
                 </div>
@@ -540,6 +543,7 @@
                         - Developed integrated <a href="https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming" target="_blank">ABR algorithm</a> using <b>Reinforcement-learning (a3c)</b> that predicts the network bandwidth and optimize the user QoE in video streaming. [OSDI'18 NAS]</br>
                         - Developed new <b>learned-index</b> model structure that adapts to imbalanced DNA dataset. [Bioinformatics'22]</br>
                         - Developed the first domain adaptation and semi-supervised learning approach for DL-based variant callers.
+                      
                            </br>
 
                 </div>
