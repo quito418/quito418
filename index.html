@@ -529,8 +529,13 @@
                 </p>
                 <div class="author">
                         - Developed <a target="_blank" href="http://ina.kaist.ac.kr/~livenas">neural-enhanced live video streaming system (LiveNAS)</a> that delivers live video with the same quality as Google WebRTC <b>using only 45.9% bandwidth on average</b>. LiveNAS system is built on top of Google WebRTC C++ code. [SIGCOMM'20 LiveNAS] </br>
-                        - Developed <a target="_blank" href="https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP">VoD (video-on-demand)</a> streaming simulation environment for RL model. The RL model was deployed and evaluated on the real world video streaming after training on the simulation environment. [OSDI'18 NAS]</br>
-                        - Implemented data-center network protocols (TLT, PFC) in <a target="_blank" href="https://www.nsnam.org/">NS-3 network simulator</a>. TLT protocol was also implemented in Linux kernel and tested in real-world testbed. [EuroSYS'21]</br>
+                        - Developed adaptive bitrate streaming algorithm based on RL model for NAS, a <a target="_blank" href="https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP">VoD (video-on-demand)</a> system for Youtube or Netflix. 
+                        The RL model was deployed and evaluated on the real world video streaming after training on the simulation environment.
+                        NAS enhanced the average <b>QoE by 43.08%</b> using the same bandwidth budget or <b>saving 17.13% of bandwidth</b> while providing the same user QoE.
+                        [OSDI'18 NAS]</br>
+                        - Implemented data-center network protocols (TLT, PFC) in <a target="_blank" href="https://www.nsnam.org/">NS-3 network simulator</a>. TLT protocol was also implemented in Linux kernel and tested in real-world testbed.
+                        TLT augments diverse datacenter transports, from widely-used (TCP, DCTCP, DCQCN) to state-of-the-art (IRN and HPCC), by achieving up to <b>81% lower tail latency</b>.
+                        [EuroSYS'21]</br>
                 </div>
 
                 <div class="row"> </br></div>
