@@ -506,41 +506,55 @@
               
               <!-- Entry bib key -->
               <div id="PhysRev.47.777" class="col-sm-12">
-                
-                <div class="title">Enhancing genome analysis pipeline with AI and ML techniques</div>
+                <div class="title"><h3>Enhancing genome analysis pipeline with AI and ML techniques</h3></div>
                 <!-- Author -->
-                <p>
+                <p> 
+                  <!-- Read alignment and variant calling are the two most important steps in the genome analysis pipeline. -->
                 </p>
+                
                 <div class="author">
-                        - BWA MEM is a industry-standard alignment software for next-generation sequencing data developed by the Broad Institute of MIT and Harvard. 
-                        We developed 
-                        <a target="_blank" href="https://github.com/kaist-ina/BWA-MEME">BWA-MEME</a> that achieves up to <b>3.45x speedup</b> over its' predecessor, BWA-MEM2 from Intel and Broad institute, while ensuring identical output. 
-                        BWA-MEME is deployed in the production environment of multiple institutions. [Oxford Bioinformatics'22]</br>
-                        - Diversity of sequencing methods challenges the robustness of deep learning-based variant callers (DVCs).
-                        To address this issue, we developed a generalization framework that extends deep learning-based variant callers (Google DeepVariant, Clair3, ...) to accommodate diverse sequencing methods, leveraging semi-supervised learning and domain adaptation techniques.
-                        RUN-DVC improves SNP F1-score and INDEL F1-score by up to <b>6.40 %p and 9.36 %p</b> over the supevised training approach using only unlabeled data.
+                    <h4><a target="_blank" href="https://github.com/kaist-ina/BWA-MEME">BWA-MEME: Machine-learning Enhanced Read Alignment Software</a></h4>
+                    • BWA MEM is a industry-standard alignment software for next-generation sequencing data developed by the Broad Institute of MIT and Harvard. 
+                        <br/>
+                        • We developed BWA-MEME that achieves up to <b>3.45x speedup</b> in seeding throughput over its' predecessor, BWA-MEM2 from Intel and Broad institute, while ensuring identical output. 
+                        <br/>
+                        • BWA-MEME is now operational in the production environments of several institutions, projected to lower alignment costs by 35%, equating to savings of about $2-3 per single human WGS. 
+                        This efficiency translates into millions of $ in cost reductions for projects on a million-genome scale.</br>
+                      <h4><a target="_blank" href="https://github.com/kaist-ina/RUN-DVC">Generalizing Deep Variant Callers via Domain Adaptation and Semi-supervised learning </a></h4>                        
+                      • Diversity of sequencing methods challenges the robustness of deep learning-based variant callers (DVCs).              
+                      <br/>
+                      • Developed a generalization framework that extends deep learning-based variant callers (e.g., Google DeepVariant, Clair3) to accommodate diverse sequencing methods, leveraging semi-supervised learning and domain adaptation techniques.
+                      <br/>
+                      • RUN-DVC improves SNP F1-score and INDEL F1-score by up to 6.40 %p and 9.36 %p over the supevised training approach using only unlabeled data or achieves the same variant calling accuracy using merely half of the labeled data. 
                         </br>
                 </div>
                 
                 <div class="row"> </br></div>
-                <div class="title">Designing AI-enhanced high-performance networked systems </div>
+                <div class="title"><h3>Designing AI-enhanced high-performance networked systems</h3> </div>
                 <!-- Author -->
                 <p>
                 </p>
                 <div class="author">
-                        - Developed <a target="_blank" href="http://ina.kaist.ac.kr/~livenas">neural-enhanced live video streaming system (LiveNAS)</a> that delivers live video with the same quality as Google WebRTC <b>using only 45.9% bandwidth on average</b>. LiveNAS system is built on top of Google WebRTC C++ code. [SIGCOMM'20 LiveNAS] </br>
-                        - Developed adaptive bitrate streaming algorithm based on RL model for NAS, a <a target="_blank" href="https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP">VoD (video-on-demand)</a> system for Youtube or Netflix. 
-                        The RL model was deployed and evaluated on the real world video streaming after training on the simulation environment.
-                        NAS enhanced the average <b>QoE by 43.08%</b> using the same bandwidth budget or <b>saving 17.13% of bandwidth</b> while providing the same user QoE.
-                        [OSDI'18 NAS]</br>
-                        - Implemented data-center network protocols (TLT, PFC) in <a target="_blank" href="https://www.nsnam.org/">NS-3 network simulator</a>. TLT protocol was also implemented in Linux kernel and tested in real-world testbed.
+                  <h4><a target="_blank" href="https://web.inalab.net/~livenas/">Live-NAS: Stream high-quality live videos even when the network becomes congested
+                  </a></h4>
+                  • Developed neural-enhanced live video streaming system (LiveNAS) that incorporates 1) Online training and inference system for super-resolution DNN model during live video streaming. 2) Bandwidth allocation algorithm to maximize user Quality of Experience (QoE)
+                  <br/>
+                  • LiveNAS delivers live video with the same quality as Google WebRTC <b>using only 45.9% bandwidth on average</b>. LiveNAS system is built on top of Google WebRTC C++ code. [SIGCOMM'20 LiveNAS] </br>
+                  <h4><a target="_blank" href="https://web.inalab.net/~nas/">NAS: Neural Adaptive Streaming</a></h4>
+                  • Developed an adaptive bit-rate streaming algorithm based on Reinforcement Learning (a3c) for NAS, a video-on-demand system such as Youtube or Netflix.
+                  <br/>
+                  • NAS enhanced the average QoE by 43.08% using the same bandwidth budget or <b>saving 17.13% of bandwidth</b> while providing the same user QoE.
+                  [OSDI'18 NAS]</br>
+                  <h4><a target="_blank" href="https://ina.kaist.ac.kr/projects/tlt/">TLT: Timeout-less Transport in Commodity Datacenter Networks
+                  </a></h4>                        
+                        • Implemented data-center network protocols (TLT, PFC) in <a target="_blank" href="https://www.nsnam.org/">NS-3 network simulator</a>. TLT protocol was also implemented in Linux kernel and tested in real-world testbed.
                         TLT augments diverse datacenter transports, from widely-used (TCP, DCTCP, DCQCN) to state-of-the-art (IRN and HPCC), by achieving up to <b>81% lower tail latency</b>.
                         [EuroSYS'21]</br>
                 </div>
 
-                <div class="row"> </br></div>
+                <!-- <div class="row"> </br></div>
                 
-                <div class="title">AI & ML for System</div>
+                <div class="title"><h3>AI & ML for System</h3></div>
                 <p>
                 </p>
                 <div class="author">
@@ -551,7 +565,7 @@
                       
                            </br>
 
-                </div>
+                </div> -->
                 <!-- <div class="row"> </br></div>
                 <div class="title">Cloud and Datacenter</div>
                 <p>
