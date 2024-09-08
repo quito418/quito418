@@ -38,9 +38,6 @@ to 3.45 speedup in seeding throughput over BWA-MEM2 by reducing the number of in
 {% bibliography -f papers -q @*[project=bwa-meme]* %}
 </div>
 
-<h3>Members</h3>
-{% include project_member.html %}
-
 
 <!-- <h3>Media</h3>
 <div class="row justify-content-sm-center">

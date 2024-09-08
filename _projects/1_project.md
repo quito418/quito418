@@ -194,9 +194,6 @@ improvement for live stream viewers.
 {% bibliography -f papers -q @*[project=livenas]* %}
 </div>
 
-<h3 class="mt-3">Members</h3>
-{% include project_member.html %}
-
 <h3 class="mt-5">Media</h3>
 <div class="row justify-content-sm-center">
     <div class="col-md mt-3 mt-md-0 col-md-6">
