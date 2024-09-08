@@ -1,81 +1,53 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: BWA-MEME
+description: BWA-MEM emulated with a machine learning approach
+img: /assets/img/project/bwa-meme/system_overview.png
+importance: 9999
+category: Systems for AI and Cloud
+members: ['Youngmok', 'Dongsu']
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-md mt-3 col-md-9">
+        {% include figure.html path="/assets/img/project/bwa-meme/system_overview.png" title="BWA-MEME" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            BWA-MEME: Design Overview
+        </div>
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+
+
+<h3>Summary</h3>
+The growing use of next-generation sequencing and enlarged sequencing throughput require efficient
+short-read alignment, where seeding is one of the major performance bottlenecks. The key challenge in the seeding
+phase is searching for exact matches of substrings of short reads in the reference DNA sequence. Existing algorithms, however, present limitations in performance due to their frequent memory accesses.
+<br/>
+BWA-MEME is the first full-fledged short read alignment software that leverages learned
+indices for solving the exact match search problem for efficient seeding. BWA-MEME is a practical and efficient
+seeding algorithm based on a suffix array search algorithm that solves the challenges in utilizing learned indices for
+SMEM search which is extensively used in the seeding phase. Our evaluation shows that BWA-MEME achieves up
+to 3.45 speedup in seeding throughput over BWA-MEM2 by reducing the number of instructions by 4.60, memory accesses by 8.77 and LLC misses by 2.21, while ensuring the identical SAM output to BWA-MEM2.
+
+<p class="profile-buttons">
+    <a class="btn z-depth-0" href="https://github.com/kaist-ina/BWA-MEME">Code</a>
+</p>
+<h3>Publications</h3>
+<div class="publications">
+{% bibliography -f papers -q @*[project=bwa-meme]* %}
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<h3>Members</h3>
+{% include project_member.html %}
 
-{% raw %}
 
-```html
+<!-- <h3>Media</h3>
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+    <div class="col-md mt-3 mt-md-0 col-md-6">
+        {% include youtube.html src="https://www.youtube.com/embed/p7zYAVz7qxk?start=0" class="rounded z-depth-1" %}
+        <div class="caption">
+            15 minute talk.
+        </div>
+    </div>
+</div> -->
