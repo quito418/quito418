@@ -5,7 +5,7 @@ description: BWA-MEM emulated with a machine learning approach
 img: /assets/img/project/bwa-meme/system_overview.png
 importance: 9999
 category: Research
-members: ['Youngmok', 'Dongsu']
+members: 
 ---
 
 <div class="row justify-content-sm-center">
