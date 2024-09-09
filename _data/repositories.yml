@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - quito418
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - kaist-ina/bwa-meme
+  - kaist-ina/RUN-DVC
+  - kaist-ina/NAS_public
+  - kaist-ina/nemo
+  - kaist-ina/neuroscaler-public
+  - kaist-ina/TopFull
+  - kaist-ina/ns3-tlt-tcp-public

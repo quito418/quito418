@@ -5,7 +5,7 @@ description: Stream high-quality live videos even when the network becomes conge
 img: /assets/img/project/livenas/livenas.png
 redirect_from: /~livenas
 importance: 9999
-category: Neural-enhanced Media Streaming
+category: Research
 members: 
 ---
 <p class="profile-buttons">
