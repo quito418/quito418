@@ -10,8 +10,8 @@ members:
 ---
 <p class="profile-buttons">
     <a class="btn z-depth-0" href="https://web.inalab.net/~livenas">Homepage</a>
-    <a class="btn z-depth-0" href="/assets/img/project/livenas/sigcomm2020-slide-livenas-short.pptx">Slide (10 min)</a>
-    <a class="btn z-depth-0" href="/assets/img/project/livenas/sigcomm2020-slide-livenas-long.pptx">Slide (20 min)</a>
+    <a class="btn z-depth-0" href="/Young_Mok_Jung/assets/img/project/livenas/sigcomm2020-slide-livenas-short.pptx">Slide (10 min)</a>
+    <a class="btn z-depth-0" href="/Young_Mok_Jung/assets/img/project/livenas/sigcomm2020-slide-livenas-long.pptx">Slide (20 min)</a>
 </p>
 
 <div class="row justify-content-sm-center">
