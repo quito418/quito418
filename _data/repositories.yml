@@ -2,9 +2,12 @@ github_users:
 
 repo_description_lines_max: 2
 
-github_repos:
+
+mine_github_repos:
   - kaist-ina/bwa-meme
   - kaist-ina/RUN-DVC
+
+github_repos:
   - kaist-ina/NAS_public
   - kaist-ina/nemo
   - kaist-ina/neuroscaler-public
