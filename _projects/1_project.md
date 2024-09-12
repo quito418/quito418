@@ -69,6 +69,10 @@ improvement for live stream viewers.
         margin-top: 0;
     }
 
+    .card img {
+        width: 100%;
+    }
+
     .demo-video {
         display: block;
         width: 100%;
@@ -79,7 +83,7 @@ improvement for live stream viewers.
     <div class="col-sm-3">
         <div class="ui card">
             <div class="image">
-            <img src="/Young_Mok_Jung/assets/img/project/livenas/jc.png">
+            <img  src="/Young_Mok_Jung/assets/img/project/livenas/jc.png">
             </div>
             <div class="content">
             <div class="header">Just Chatting</div>
