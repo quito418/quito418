@@ -109,15 +109,14 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Computer System",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Distributed system",
+        "High-performance computing",
+        "Networked system",
+        "Cloud",
+        "Data-center networking",
       ]
     }
   ],
