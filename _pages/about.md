@@ -4,12 +4,14 @@ title: about
 permalink: /
 subtitle: <p class="desc"> tom418@alumni.kaist.ac.kr | <a href="https://scholar.google.com/citations?view_op=list_works&user=s3vE_LEAAAAJ" target="_blank">Google Scholar</a> | <a href="https://www.linkedin.com/in/young-mok-jung-4958ab137/" target="_blank">Linkedin</a> | <a href="https://quito418.github.io/quito418/cv.pdf" target="_blank">CV</a></p>
 
+cv_pdf: YoungmokCV.pdf
+
 profile:
   align: right
   image: profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    AI tech lead @ https://inocras.com
+    AI tech lead @ <a href='https://inocras.com'>Inocras .Inc</a> San Diego, CA.
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

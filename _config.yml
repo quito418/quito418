@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Young Mok Jung # the website title (if blank, full name will be used instead)
+title:  # the website title (if blank, full name will be used instead)
 first_name: Young Mok
 middle_name: 
 last_name: Jung
 email: tom418@alumni.kaist.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal Website.
 footer_text: >
   Welcome to my website!
 keywords: High performance computing, Deep Learning, Machine Learning, Genomics, Bioinformatics # add your own keywords or leave empty
