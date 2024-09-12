@@ -1,114 +1,83 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Young-Mok Jung",
+    "label": "AI Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "quito418@gmail.com",
+    "phone": "",
+    "url": "https://quito418.github.io/Young_Mok_Jung/",
+    "summary": "I am an AI research scientist at Genome Insight, where I collaborate with geneticists to develop secondary and tertiary analysis solutions for genomics data, aiming to uncover novel biological insights to enhance human health",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Linkedin",
+        "username": "young-mok-jung-4958ab137",
+        "url": "www.linkedin.com/in/young-mok-jung-4958ab137"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Inocras .Inc (formally Genome Insight .Inc)",
+      "position": "AI Tech lead",
+      "url": "https://inocras.com",
+      "startDate": "2023-08-07",
+      "endDate": "",
+      "summary": "Transforming genome analysis into data-driven and scalable way.",
+      "highlights": ["AI/ML", "Generative AI", "Genomics","Deep learning", "Drug discovery", "Cancer", "High-performance computing"]
     }
   ],
   "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
+    
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "location": "Daejoen, South Korea",
+      "url": "https://www.kaist.ac.kr/",
+      "area": "Electrical Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2018-09-01",
+      "endDate": "2024-02-28",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Distributed network system", "High-performance computing", "Graph Machine Learning and Mining", "Deep learning for image data", "Data Mining", "Big data", "CUDA programming"]
+    },
+    {
+      "institution": "DTU - Technical University of Denmark",
+      "location": "Denmark",
+      "url": "https://https://www.dtu.dk/english",
+      "area": "Electrical Engineering",
+      "studyType": "Exchange Student",
+      "startDate": "2016-06-01",
+      "endDate": "2016-09-01",
+      "score": "10",
+      "courses": []
+    },
+    {
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "location": "Daejoen, South Korea",
+      "url": "https://www.kaist.ac.kr/",
+      "area": "Electrical Engineering",
+      "studyType": "B.S.",
+      "startDate": "2014-03-01",
+      "endDate": "2018-08-29",
+      "score": "10",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Samsung Humantech Paper Award",
+      "date": "2023",
+      "awarder": "Samsung Electronics",
+      "url": "",
+      "summary": "Awarded Silver-prize (118 out of 1972 papers) for the paper titled 'Co-optimizing for Flow Completion Time in Radio Access Network' at the 2023 Samsung Humantech Paper Award."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "Samsung PhD Sponsorship",
+      "date": "2022",
+      "awarder": "Samsung Electronics",
+      "url": "",
+      "summary": "Awarded full scholarship for Ph.D. program at KAIST by Samsung Electronics."
     }
   ],
   "publications": [
@@ -151,7 +120,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Korean",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -177,24 +146,14 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Dongsu Han",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Ph.D. advisor at KAIST. He is a professor in the School of Electrical Engineering at KAIST."
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Young Seok Ju",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "reference": "Ph.D. co-advisor at KAIST. He is a professor in the graduate school of medical science and technology at KAIST."
     }
   ]
 }

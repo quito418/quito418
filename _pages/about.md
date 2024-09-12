@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://inocras.com'>Inocras .Inc</a>. San Diego, CA.
 
 profile:
   align: right
