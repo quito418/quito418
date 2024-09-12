@@ -79,7 +79,7 @@ improvement for live stream viewers.
     <div class="col-sm-3">
         <div class="ui card">
             <div class="image">
-            <img src="/assets/img/project/livenas/jc.png">
+            <img src="/Young_Mok_Jung/assets/img/project/livenas/jc.png">
             </div>
             <div class="content">
             <div class="header">Just Chatting</div>
@@ -102,7 +102,7 @@ improvement for live stream viewers.
     <div class="col-sm-3">
         <div class="card">
             <div class="image">
-            <img src="/assets/img/project/livenas/lol.png">
+            <img src="/Young_Mok_Jung/assets/img/project/livenas/lol.png">
             </div>
             <div class="content">
             <div class="header">League of Legends</div>
@@ -125,7 +125,7 @@ improvement for live stream viewers.
     <div class="col-sm-3">
         <div class="card">
             <div class="image">
-            <img src="/assets/img/project/livenas/Food.png">
+            <img src="/Young_Mok_Jung/assets/img/project/livenas/Food.png">
             </div>
             <div class="content">
             <div class="header">Food/Cooking</div>
@@ -148,7 +148,7 @@ improvement for live stream viewers.
     <div class="col-sm-3">
         <div class="card">
         <div class="image">
-            <img src="/assets/img/project/livenas/sports.png">
+            <img src="/Young_Mok_Jung/assets/img/project/livenas/sports.png">
         </div>
         <div class="content">
         <div class="header">Sports</div>
