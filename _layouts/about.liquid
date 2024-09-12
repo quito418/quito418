@@ -76,7 +76,7 @@ layout: default
     {% endif %}
 
 
-  
+    <div class="post">
       {% for data in site.data.resume %}
         {% if site.jsonresume and site.jsonresume.size > 0 %}
           {% unless site.jsonresume contains data[0] %}
@@ -109,7 +109,7 @@ layout: default
           </div>
         </div>
       {% endfor %}
-
+    </div>  
 
     {% if site.data.repositories.mine_github_repos %}
 
