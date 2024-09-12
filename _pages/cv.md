@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /Young_Mok_Jung/assets/pdf/YoungmokCV.pdf
+permalink: /assets/pdf/YoungmokCV.pdf
 title: cv
 nav: true
 nav_order: 5
