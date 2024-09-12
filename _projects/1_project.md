@@ -54,6 +54,9 @@ improvement for live stream viewers.
         color: rgba(0,0,0,.4);
     }
 
+    .youtube-container{
+        width: 100%;        
+    }
     .description {
         margin-top: 5px;
     }
