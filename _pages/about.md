@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://inocras.com'>Inocras .Inc</a>. San Diego, CA.
+subtitle: <p class="desc"> tom418@alumni.kaist.ac.kr | <a href="https://scholar.google.com/citations?view_op=list_works&user=s3vE_LEAAAAJ" target="_blank">Google Scholar</a> | <a href="https://www.linkedin.com/in/young-mok-jung-4958ab137/" target="_blank">Linkedin</a> | <a href="https://quito418.github.io/quito418/cv.pdf" target="_blank">CV</a></p>
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 **I am an AI research scientist at Genome Insight, where I collaborate with geneticists to develop secondary and tertiary analysis solutions for genomics data, aiming to uncover novel biological insights to enhance human health.** 
 I received my PhD in Electrical Engineering from KAIST, where I was advised by [Dongsu Han](http://ina.kaist.ac.kr/~dongsuh/) and [Young Seok Ju](https://www.julab.kaist.ac.kr/members). My [dissertation](https://quito418.github.io/quito418/youngmok_dissertation.pdf) introduced new methods for improving genome analysis with AI and ML. Before then, I received my BS degree in Electrical Engineering from KAIST, South Korea.
