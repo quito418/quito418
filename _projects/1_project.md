@@ -10,8 +10,8 @@ members:
 ---
 <p class="profile-buttons">
     <a class="btn z-depth-0" href="https://web.inalab.net/~livenas">Homepage</a>
-    <a class="btn z-depth-0" href="/Young_Mok_Jung/assets/img/project/livenas/sigcomm2020-slide-livenas-short.pptx">Slide (10 min)</a>
-    <a class="btn z-depth-0" href="/Young_Mok_Jung/assets/img/project/livenas/sigcomm2020-slide-livenas-long.pptx">Slide (20 min)</a>
+    <a class="btn z-depth-0" href="/quito418/assets/img/project/livenas/sigcomm2020-slide-livenas-short.pptx">Slide (10 min)</a>
+    <a class="btn z-depth-0" href="/quito418/assets/img/project/livenas/sigcomm2020-slide-livenas-long.pptx">Slide (20 min)</a>
 </p>
 
 <div class="row justify-content-sm-center">
@@ -86,7 +86,7 @@ improvement for live stream viewers.
     <div class="col-sm-3">
         <div class="ui card">
             <div class="image">
-            <img  src="/Young_Mok_Jung/assets/img/project/livenas/jc.png">
+            <img  src="/quito418/assets/img/project/livenas/jc.png">
             </div>
             <div class="content">
             <div class="header">Just Chatting</div>
@@ -109,7 +109,7 @@ improvement for live stream viewers.
     <div class="col-sm-3">
         <div class="card">
             <div class="image">
-            <img src="/Young_Mok_Jung/assets/img/project/livenas/lol.png">
+            <img src="/quito418/assets/img/project/livenas/lol.png">
             </div>
             <div class="content">
             <div class="header">League of Legends</div>
@@ -132,7 +132,7 @@ improvement for live stream viewers.
     <div class="col-sm-3">
         <div class="card">
             <div class="image">
-            <img src="/Young_Mok_Jung/assets/img/project/livenas/Food.png">
+            <img src="/quito418/assets/img/project/livenas/Food.png">
             </div>
             <div class="content">
             <div class="header">Food/Cooking</div>
@@ -155,7 +155,7 @@ improvement for live stream viewers.
     <div class="col-sm-3">
         <div class="card">
         <div class="image">
-            <img src="/Young_Mok_Jung/assets/img/project/livenas/sports.png">
+            <img src="/quito418/assets/img/project/livenas/sports.png">
         </div>
         <div class="content">
         <div class="header">Sports</div>
