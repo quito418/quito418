@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <p class="desc"> tom418@alumni.kaist.ac.kr | <a href="https://scholar.google.com/citations?view_op=list_works&user=s3vE_LEAAAAJ" target="_blank">Google Scholar</a> | <a href="https://www.linkedin.com/in/young-mok-jung-4958ab137/" target="_blank">Linkedin</a> | <a href="https://quito418.github.io/quito418/cv.pdf" target="_blank">CV</a></p>
+subtitle: <p class="desc"> tom418@alumni.kaist.ac.kr | <a href="https://scholar.google.com/citations?view_op=list_works&user=s3vE_LEAAAAJ" target="_blank">Google Scholar</a> | <a href="https://www.linkedin.com/in/young-mok-jung-4958ab137/" target="_blank">Linkedin</a> | <a href="https://quito418.github.io/quito418/assets/pdf/YoungmokCV.pdf" target="_blank">CV</a></p>
 
 cv_pdf: YoungmokCV.pdf
 
