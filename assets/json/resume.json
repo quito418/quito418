@@ -120,26 +120,30 @@
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor Dongsu Han",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Ph.D. advisor at KAIST. He is a professor in the School of Electrical Engineering at KAIST."
-    },
-    {
-      "name": "Professor Young Seok Ju",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Ph.D. co-advisor at KAIST. He is a professor in the graduate school of medical science and technology at KAIST."
-    }
-  ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "BWA-MEME: Machine-learning Enhanced Read Alignment Software",
+      "summary": "",
+      "highlights": [
+        "BWA MEM is a industry-standard alignment software for next-generation sequencing data developed by the Broad Institute of MIT and Harvard.", 
+        "We developed BWA-MEME that achieves up to 3.45x speedup in seeding throughput over its' predecessor, BWA-MEM2 from Intel and Broad institute, while ensuring identical output.",
+        "BWA-MEME is now operational in the production environments of several institutions, projected to lower alignment costs by 35%. This efficiency translates into millions of $ in cost reductions for projects on a million-genome scale."
+      ],
+      "startDate": "2020-03-01",
+      "endDate": "2022-06-01",
+      "url": "https://github.com/kaist-ina/bwa-meme"
+    },
+    {
+      "name": "Generalizing Deep Variant Callers via Domain Adaptation and Semi-supervised learning",
+      "summary": "",
+      "highlights": [
+        "Deploying deep learning-based variant callers (DVCs) to a sequencing method with varying error profiles necessitates generalization which is challenging due to their reliance on extensive labeled data.", 
+        "We developed a generalization framework that enables deep learning-based variant callers (e.g., Google DeepVariant, Clair3) to accommodate diverse sequencing methods, leveraging semi-supervised learning and domain adaptation techniques.",
+        "RUN-DVC improves SNP F1-score and INDEL F1-score by up to 6.40 %p and 9.36 %p over the supevised training approach using only unlabeled data or achieves the same variant calling accuracy using merely half of the labeled data."
+      ],
+      "startDate": "2022-07-01",
+      "endDate": "2023-08-01",
+      "url": "https://github.com/kaist-ina/RUN-DVC"
     }
   ]
 }
