@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://quito418.github.io/Young_Mok_Jung/sitemap.xml
+Sitemap: https://quito418.github.io/quito418/sitemap.xml
