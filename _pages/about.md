@@ -8,7 +8,7 @@ cv_pdf: YoungmokCV.pdf
 
 profile:
   align: right
-  image: profile.png
+  image: profile_2.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     AI tech lead @ <a href='https://inocras.com'>Inocras .Inc</a> San Diego, CA.
