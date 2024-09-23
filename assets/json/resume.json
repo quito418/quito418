@@ -39,7 +39,7 @@
       "startDate": "2018-09-01",
       "endDate": "2024-02-28",
       "score": "10",
-      "courses": ["Distributed network system", "High-performance computing", "Graph Machine Learning and Mining", "Deep learning for image data", "Data Mining", "Big data", "CUDA programming"]
+      "courses": ["Distributed network system", "High-performance computing", "Graph signal processing and Graph deep learning", "Deep Reinforcement Learning", "Deep learning for Image Restoration and Quality Enhancement", "Data Mining", "Big data"]
     },
     {
       "institution": "DTU - Technical University of Denmark",
