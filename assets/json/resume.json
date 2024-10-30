@@ -138,7 +138,8 @@
       "name": "Live-NAS: Stream high-quality live videos even when the network becomes congested",
       "summary": "",
       "highlights": [
-        "Developed neural-enhanced live video streaming system (LiveNAS) that incorporates 1) Online training and inference system for super-resolution DNN model during live video streaming. 2) Bandwidth allocation algorithm to maximize user Quality of Experience (QoE)", 
+        "Live video accounts for a significant volume of today’s Internet video. Despite a large number of efforts to enhance user quality of experience (QoE) both at the ingest and distribution side of live video, the fundamental limitations are that streamer’s upstream bandwidth and computational capacity limit the QoE of thousands of viewers.",
+        "We developed neural-enhanced live video streaming system (LiveNAS) that incorporates 1) Online training and inference system for super-resolution DNN model during live video streaming. 2) Bandwidth allocation algorithm to maximize user QoE", 
         "LiveNAS delivers live video with the same quality as Google WebRTC using only 45.9% bandwidth on average. LiveNAS system is built on top of Google WebRTC C++ code."
       ],
       "startDate": "2018-09-01",
