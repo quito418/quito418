@@ -311,8 +311,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Lee]
-  first_name: [Soo Min]
+  last_name: [Jung]
+  first_name: [Young Mok]
 
   style: apa
   locale: en
