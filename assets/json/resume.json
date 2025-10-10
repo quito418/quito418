@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Young-Mok Jung",
-    "label": "AI Researcher",
+    "label": "Machine Learning Engineer",
     "image": "",
-    "email": "quito418@gmail.com",
+    "email": "quito418[dot]mail@gmail.com",
     "phone": "",
     "url": "https://quito418.github.io/quito418/",
-    "summary": "I am an AI research scientist at Genome Insight, where I collaborate with geneticists to develop secondary and tertiary analysis solutions for genomics data, aiming to uncover novel biological insights to enhance human health",
+    "summary": "I am an Machine Learning Engineer at Apple, working on data-centric AI problems for multi-modal foundation model",
     "profiles": [
       {
         "network": "Linkedin",
@@ -17,13 +17,28 @@
   },
   "work": [
     {
-      "name": "Inocras .Inc (formally Genome Insight .Inc)",
+      "name": "Apple",
+      "location": "San Diego, US",
+      "position": "Machine Learning Engineer",
+      "startDate": "2025-10-06",
+      "endDate": "",
+      "summary": "Data-centric AI for multimodal foundation model",
+      "highlights": []
+    },
+    {
+      "name": "Inocras .Inc",
+      "location": "San Diego, US",
       "position": "AI Tech lead",
       "url": "https://inocras.com",
       "startDate": "2023-08-07",
-      "endDate": "",
+      "endDate": "2025-09-19",
       "summary": "Leveraging AI and ML to transform genome analysis into a scalable, data-driven approach capable of handling million-genome scale data",
-      "highlights": ["AI/ML", "Generative AI", "Genomics","Deep learning", "Drug discovery", "Cancer", "High-performance computing"]
+      "highlights": ["Genomic Foundation Models: Developed genomic foundation model based cancer embedding and subtyping software; spearheaded a collaborative project building a genomic foundation model.", 
+      "MRDVision: Led design, implementation, and validation of an ML-based pipeline for minimal residual disease detection, achieving ppm-level sensitivity in collaboration with Ultima Genomics; directed both analytical and clinical validation efforts. ref: JCO.2025.43.16_suppl.e15089", 
+      "HPC/Cloud Optimization: Led an AWS HealthOmics cost-reduction initiative, cutting pipeline runtime by 50% and costs by 80%, driving a 10%+ CancerVision product margin increase. Re-architected the workflow for cloud efficiency by eliminating centralized disk dependencies, enabling vertical/horizontal scalability, integrating hardware acceleration, and optimizing CPU, memory, and storage utilization.",
+      "CNS Tumor Classification (Methylation): Led design and implementation of an ML pipeline for whole-genome methylation–based classification of CNS tumors ref: 10.1101/2025.09.18.25335800v1", 
+      "Mutation Calling software: Built deep learning–based mutation calling software robust to library/sample-specific errors across multiple sequencing platforms."
+      ]
     }
   ],
   "volunteer": [
@@ -95,6 +110,9 @@
       "keywords": [
         "Deep learning for Image data",
         "Semi-supervised learning",
+        "Generative AI",
+        "Multi-modal AI",
+        "LLM/VLM",
         "Domain adaptation",
         "Graph neural network",
         "reinforcement learning",
