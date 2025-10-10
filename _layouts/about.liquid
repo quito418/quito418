@@ -113,29 +113,36 @@ layout: default
                   <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
                   <div>
                   {% include resume/work.liquid %}
+                  </div>
+          </div>
                 {% when 'awards' %}
                 <a class="anchor" id="{{ data[0] }}"></a>
                 <div class="card mt-3 p-3">
                   <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
                   <div>
                   {% include resume/awards.liquid %}
+                      </div>
+              </div>
                 {% when 'publications' %}
                 <a class="anchor" id="{{ data[0] }}"></a>
                 <div class="card mt-3 p-3">
                   <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
                   <div>
                   {% include resume/publications.liquid %}
+                        </div>
+                </div>
                 {% when 'references' %}
                     <a class="anchor" id="{{ data[0] }}"></a>
               <div class="card mt-3 p-3">
                 <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
                 <div>
                   {% include resume/references.liquid %}
+                    </div>
+            </div>
                 {% else %}
 
               {% endcase %}
-            </div>
-          </div>
+            
         {% endfor %}
       </div>
     </article>
