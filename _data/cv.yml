@@ -1,0 +1,90 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Young Mok Jung
+    - name: Languages
+      value: English, German
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
+        - Description 1.
+        - Description 2.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Machine Learning Engineer at Apple Inc.
+      institution: San Diego, CA
+      year: Oct 2025 - Present
+      description:
+        - "Working on data-centric AI for training multimodal foundation models, RL, and agentic systems"
+        - "RL-Post Training, Evaluation, and Agentic Systems: Developing and evaluating models for agentic systems (LLM-Siri) to handle complex, multi-step user queries. Designed and implemented a harness-agnostic memory evaluation framework focusing on the personal assistant task domain."
+    - title: AI & Data Team Lead / AI Tech Lead at Inocras Inc.
+      institution: San Diego, CA
+      year: Aug 2023 - Sep 2025
+      description:
+        - "Led a team, applying AI/ML to problems in Cancer / Genomics."
+        - "Genomic Foundation Models: Developed genomic foundation model based cancer embedding and subtyping software; spearheaded a collaborative project building a genomic foundation model. ref: https://arxiv.org/html/2601.03019v1"
+        - "MRDVision: Led design, implementation, and validation of an ML-based pipeline for minimal residual disease detection, achieving ppm-level sensitivity in collaboration with Ultima Genomics; directed both analytical and clinical validation efforts. ref: JCO.2025.43.16_suppl.e15089"
+        - "HPC/Cloud Optimization: Led an AWS HealthOmics cost-reduction initiative, cutting pipeline runtime by 50% and costs by 80%, driving a 10%+ CancerVision product margin increase. Re-architected the workflow for cloud efficiency by eliminating centralized disk dependencies, enabling vertical/horizontal scalability, integrating hardware acceleration, and optimizing CPU, memory, and storage utilization."
+        - "CNS Tumor Classification (Methylation): Led design and implementation of an ML pipeline for whole-genome methylation–based classification of CNS tumors ref: 10.1101/2025.09.18.25335800v1"
+        - "Mutation Calling software: Built deep learning–based mutation calling software robust to library/sample-specific errors across multiple sequencing platforms."
+    - title: Graduate Research Assistant at KAIST
+      institution: "Daejeon, Korea (Lab: <a href=\"https://ina.kaist.ac.kr/\">ina.kaist.ac.kr</a>)"
+      year: Sep 2018 - Feb 2024
+      description:
+        - "Graduate Research Assistant Advisor: Prof. Dongsu Han & Prof. Young Seok Ju"
+        - "Transfer Learning for Deep Variant Callers: Developed a domain adaptation framework for DeepVariant and Clair3. Improved SNP/INDEL F1-scores by 6.4%p / 9.4%p and maintained accuracy with 50% less labeled data (Preprint ’23)."
+        - "BWA-MEME (Bioinformatics Acceleration): Designed memory and CPU-cache efficient alignment software using learned indexes. Reduced CPU instructions by 4.6x and LLC misses by 2.2x, achieving 3.45x speedup over Intel BWA-MEM2 (Bioinformatics ’22, cited 320 times)."
+        - "LiveNAS: Built a live video streaming system using online training for super-resolution DNNs. Reduced bandwidth usage by 45.9% while maintaining quality."
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
