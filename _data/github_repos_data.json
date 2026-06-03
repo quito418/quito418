@@ -1,0 +1,65 @@
+{
+  "kaist-ina/bwa-meme": {
+    "name": "BWA-MEME",
+    "owner": "kaist-ina",
+    "description": "BWA-MEME: Faster BWA-MEM2 using learned-index",
+    "stargazers_count": 139,
+    "forks_count": 16,
+    "language": "C++",
+    "html_url": "https://github.com/kaist-ina/BWA-MEME"
+  },
+  "kaist-ina/RUN-DVC": {
+    "name": "RUN-DVC",
+    "owner": "kaist-ina",
+    "description": "Generalizing deep learning-based variant callers via domain adaptation and semi-supervised learning",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "Python",
+    "html_url": "https://github.com/kaist-ina/RUN-DVC"
+  },
+  "kaist-ina/NAS_public": {
+    "name": "NAS_public",
+    "owner": "kaist-ina",
+    "description": "This is an official repository of the paper, \"Neural Adaptive Content-aware Internet Video Delivery\"",
+    "stargazers_count": 86,
+    "forks_count": 23,
+    "language": "Python",
+    "html_url": "https://github.com/kaist-ina/NAS_public"
+  },
+  "kaist-ina/nemo": {
+    "name": "nemo",
+    "owner": "kaist-ina",
+    "description": "This is an official GitHub repository for the paper, \"NEMO: Enabling Neural-enhanced Video Streaming on Commodity Mobile Devices\".",
+    "stargazers_count": 82,
+    "forks_count": 18,
+    "language": "Java",
+    "html_url": "https://github.com/kaist-ina/nemo"
+  },
+  "kaist-ina/neuroscaler-public": {
+    "name": "neuroscaler-public",
+    "owner": "kaist-ina",
+    "description": "This is an official GitHub repository for the paper, \"Engorgio: Neural Enhancement at Scale\"",
+    "stargazers_count": 35,
+    "forks_count": 5,
+    "language": "Python",
+    "html_url": "https://github.com/kaist-ina/neuroscaler-public"
+  },
+  "kaist-ina/TopFull": {
+    "name": "TopFull",
+    "owner": "kaist-ina",
+    "description": null,
+    "stargazers_count": 7,
+    "forks_count": 3,
+    "language": "Go",
+    "html_url": "https://github.com/kaist-ina/TopFull"
+  },
+  "kaist-ina/ns3-tlt-tcp-public": {
+    "name": "ns3-tlt-tcp-public",
+    "owner": "kaist-ina",
+    "description": "This is an official GitHub repository for the paper, \"Towards timeout-less transport in commodity datacenter networks.\".",
+    "stargazers_count": 17,
+    "forks_count": 3,
+    "language": "Python",
+    "html_url": "https://github.com/kaist-ina/ns3-tlt-tcp-public"
+  }
+}
