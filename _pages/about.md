@@ -17,7 +17,7 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-Currently at Apple, I work as a Machine Learning Engineer on data-centric AI for multimodal foundation models. With 7+ years of experience across academia and industry, my focus has been on building AI/ML systems where robustness, generalization, and strong performance come from the data itself. 
+Currently at Apple, I am a Machine Learning Research Engineer on the Data-Centric AI Research team, working on evaluation and post-training for agentic systems. With 8+ years of experience across academia and industry, I build AI/ML systems where robustness, generalization, and strong performance come from the data itself.
 
 Previously at Inocras, I led AI/ML efforts in genomics — developing genomic foundation models (DNACHUNKER, ICML 2026), minimal residual disease (ctDNA) detection (JCO 2025), and large-scale cloud/HPC optimizations.
 
