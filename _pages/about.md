@@ -19,7 +19,7 @@ social: false # includes social icons at the bottom of the page
 ---
 Currently at Apple, I work as a Machine Learning Engineer on data-centric AI for multimodal foundation models. With 7+ years of experience across academia and industry, my focus has been on building AI/ML systems where robustness, generalization, and strong performance come from the data itself. 
 
-Previously at Inocras, I led AI/ML efforts in genomics — developing genomic foundation models, minimal residual disease (ctDNA) detection (JCO 2025), and large-scale cloud/HPC optimizations.
+Previously at Inocras, I led AI/ML efforts in genomics — developing genomic foundation models (DNACHUNKER, ICML 2026), minimal residual disease (ctDNA) detection (JCO 2025), and large-scale cloud/HPC optimizations.
 
 During my PhD at KAIST, I created BWA-MEME (Oxford Bioinformatics 2022), a high-speed genomic data preprocessing tool now in production worldwide; developed semi-supervised and domain adaptation frameworks for deep variant callers; and built LiveNAS (SIGCOMM 2020), an online-learning super-resolution deep learning system for live video.
 
